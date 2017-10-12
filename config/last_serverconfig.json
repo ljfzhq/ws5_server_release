@@ -1,0 +1,36 @@
+{
+    "serversettings": {
+        "port": 2000,
+        "topfirst": false,
+        "processnumber": 1,
+        "abnormalThreshold": 60,
+        "abnormalCheckInterval": 60,
+        "heartbeatInterval": 10,
+        "downloadTimeout": 10000,
+        "downloadRetryTimes": 3,
+        "rangeInterval": 50,
+        "rangeFailBaseInterval": 10000,
+        "deletePrefix": "_deleted_",
+        "trashfoldername": "trash",
+        "playerpwd": "jZae727K08KaOmKSgOaGzww/XVqGr/PKEgIMkjrcbJI",
+        "publishfolder": "published_media",
+        "revisionprefix": ".rev_",
+        "revisionsuffix": ".link",
+        "widgetfilelist": "widget.list",
+        "unassigned": "/player/not assigned"
+    },
+    "dbsettings": {
+        "cookieSecret": "WebSignage5",
+        "db": "websignage",
+        "host": "localhost",
+        "port": 27017
+    },
+    "logsettings": {
+        "filename": "serverlog",
+        "loglevel": "debug",
+        "keep": 2
+    },
+    "filelibrary": {
+        "path": "w:\\ws5\\src\\server\\ws5\\lib"
+    }
+}

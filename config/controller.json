@@ -1,0 +1,34 @@
+{
+    "playersettings": {
+        "server": false,
+        "pptAppPath": "C:\\Program Files (x86)\\Microsoft Office\\Office14\\PPTVIEW.EXE",
+        "minimumfreespace": 5,
+        "widgetfilelist": "widget.list",
+        "revisionprefix": ".rev_",
+        "revisionsuffix": ".link",
+        "mediascope": 60000,
+        "scheduleparsescope": 7200000,
+        "defaultinterval": 1000000,
+        "renderhbinterval": 500000,
+        "defaulthbinterval": 500000,
+        "rangeinterval": 50,
+        "rangefailbaseinterval": 5000,
+        "rangesize": 1024000,
+        "downloadqueuesuffix": "_queue.json",
+        "retrytimes": 3,
+        "downloadtimeout": 10000,
+        "downloadretrytimes": 3,
+        "abnormalinterval": 3000000,
+        "maxsynctimedelay": 20,
+        "maxtimedifference": 200,
+        "version": "1.0"
+    },
+    "logsettings": {
+        "filename": "controllerlog",
+        "loglevel": "debug",
+        "keep": 10
+    },
+    "filelibrary": {
+        "path": "c:\\ws5\\download"
+    }
+}

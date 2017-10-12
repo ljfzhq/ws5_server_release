@@ -1,0 +1,307 @@
+{ 
+	"Hawaiian Standard Time": 
+		{"zone": "(UTC-10:00) Hawaii",
+			"city": "Pacific/Honolulu"},
+	"Alaskan Standard Time": 
+		{"zone": "(UTC-09:00) Alaska", 
+			"city":"America/Anchorage"},
+	"Pacific Standard Time (Mexico)": 
+		{"zone": "(UTC-08:00) Baja California ",
+			"city":"America/Tijuana"},
+	"Pacific Standard Time": 
+		{"zone":"(UTC-08:00) Pacific Time (US & Canada)", 
+			"city":"America/Los_Angeles"},
+	"US Mountain Standard Time": 
+		{"zone":"(UTC-07:00) Arizona", 
+			"city": "America/Phoenix"},
+	"Mountain Standard Time": 
+		{"zone": "(UTC-07:00) Mountain Time (US & Canada) ",
+			"city":"America/Denver"},
+	"Central America Standard Time": 
+		{"zone":"(UTC-06:00) Central America ",
+			"city":"America/Chicago"},
+	"Central Standard Time (Mexico)": 
+		{"zone":"(UTC-06:00) Guadalajara, Mexico City, Monterrey", 
+			"city":"America/Mexico_City"},
+	"Canada Central Standard Time": 
+		{"zone":"(UTC-06:00) Saskatchewan", 
+			"city":"America/Regina"},
+	"Eastern Standard Time": 
+		{ "zone":"(UTC-05:00) Eastern Time (US & Canada)",
+			"city": "America/Toronto"},
+	"Atlantic Standard Time": 
+		{"zone":"(UTC-04:00) Atlantic Time (Canada)",
+			"city":"America/Blanc-Sablon"},
+	"Central Brazilian Standard Time": 
+		{"zone":"(UTC-04:00) Cuiaba",
+			"city":"America/Cuiaba"},
+	"E. South America Standard Time": 
+		{"zone":"(UTC-03:00) Brasilia",
+			"city":"America/Belem"},
+	"Argentina Standard Time": 
+		{"zone":"(UTC-03:00) Buenos Aires",
+			"city":"America/Argentina/Buenos_Aires"},
+	"Bahia Standard Time": 
+		{"zone":"(UTC-03:00) Salvador",
+			"city":"America/Bahia"},
+ 	"Cape Verde Standard Time": 
+ 		{"zone":"(UTC-01:00) Cape Verde Is.",
+ 			"city":"Atlantic/Cape_Verde"},
+	"Morocco Standard Time": 
+		{"zone":"(UTC) Casablanca",
+			"city": "Africa/Casablanca"},
+	"UTC": 
+		{"zone":"(UTC) Coordinated Universal Time", 
+			"city":"Etc/UTC"},
+	"GMT Standard Time": 
+		{"zone":"(UTC) Dublin, Edinburgh, Lisbon, London",
+			"city": "Europe/London"},
+	"Greenwich Standard Time": 
+		{"zone":"(UTC) Monrovia, Reykjavik",
+			"city": "Atlantic/Reykjavik"},
+	"W. Europe Standard Time": 
+		{"zone":"(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna",
+			"city": "Europe/Berlin"},
+	"Central Europe Standard Time": 
+		{"zone":"(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague", 
+			"city":"Europe/Prague"},
+	"Romance Standard Time": 
+		{"zone":"(UTC+01:00) Brussels, Copenhagen, Madrid, Paris", 
+			"city": "Europe/Brussels"},
+	"Central European Standard Time": 
+		{"zone":"(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb", 
+			"city":"Europe/Warsaw"},
+	"GTB Standard Time": 
+		{"zone":"(UTC+02:00) Athens, Bucharest",
+			"city":"Europe/Athens"},
+	"Middle East Standard Time": 
+		{"zone":"(UTC+02:00) Beirut",
+			"city":"Asia/Beirut"},
+	"Egypt Standard Time": 
+		{"zone":"(UTC+02:00) Cairo",
+			"city":"Africa/Cairo"},
+	"Syria Standard Time":  
+		{"zone":"(UTC+02:00) Damascus",
+			"city":"Asia/Damascus"},
+	"E. Europe Standard Time": 
+		{"zone":"(UTC+02:00) E. Europe",
+			"city":"Europe/Bucharest"},
+	"South Africa Standard Time":
+		{"zone": "(UTC+02:00) Harare, Pretoria", 
+			"city": "Africa/Harare"},
+	"FLE Standard Time": 
+		{"zone":"(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius", 
+			"city":"Europe/Helsinki"},
+	"Turkey Standard Time":
+		{"zone":"(UTC+02:00) Istanbul", 
+			"city":"Europe/Istanbul"},
+	"Israel Standard Time": 
+		{"zone":"(UTC+02:00) Jerusalem", 
+			"city":"Asia/Jerusalem"},
+	"Jordan Standard Time": 
+		{"zone":"(UTC+03:00) Amman",
+			"city":"Asia/Amman"},
+	"Arabic Standard Time": 
+		{"zone":"(UTC+03:00) Baghdad", 
+			"city":"Asia/Baghdad"},
+ 	"Kaliningrad Standard Time":
+ 		{"zone":"(UTC+03:00) Kaliningrad, Minsk", 
+ 			"city":"Europe/Minsk"},
+	"Arab Standard Time": 
+		{"zone":"(UTC+03:00) Kuwait, Riyadh", 
+			"city":"Asia/Kuwait"},
+	"Iran Standard Time": 
+		{"zone":"(UTC+03:30) Tehran",
+			"city":"	Asia/Tehran"},
+	"Arabian Standard Time": 
+		{"zone":"(UTC+04:00) Abu Dhabi, Muscat",
+			"city":"Asia/Muscat"},
+	"Russian Standard Time": 
+		{"zone":"(UTC+04:00) Moscow, St. Petersburg, Volgograd" ,
+			"city":"Europe/Moscow"},
+	"Afghanistan Standard Time": 
+		{"zone":"(UTC+04:30) Kabul", 
+			"city":"Asia/Kabul"},
+	"West Asia Standard Time": 
+		{"zone":"(UTC+05:00) Ashgabat, Tashkent",
+			"city":"Asia/Ashgabat"},
+ 	"India Standard Time": 
+ 		{"zone":"(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi",
+ 			"city":"Asia/Kolkata"},
+	"Sri Lanka Standard Time": 
+		{"zone":"(UTC+05:30) Sri Jayawardenepura",
+			"city":"Asia/Colombo"},
+ 	"Nepal Standard Time": 
+ 		{"zone":"(UTC+05:45) Kathmandu",
+ 			"city":"Asia/Katmandu"},
+	"Bangladesh Standard Time": 
+		{"zone":"(UTC+06:00) Dhaka", 
+			"city":"Asia/Dhaka"},
+	"SE Asia Standard Time": 
+		{"zone":"(UTC+07:00) Bangkok, Hanoi, Jakarta",
+			"city":"Asia/Bangkok"},
+ 	"China Standard Time": 
+ 		{"zone":"(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi",
+ 			"city":"Asia/Shanghai"},
+	"Singapore Standard Time": 
+		{"zone":"(UTC+08:00) Kuala Lumpur, Singapore" ,
+			"city":"Asia/Singapore"},
+	"W. Australia Standard Time": 
+		{"zone":"(UTC+08:00) Perth",
+			"city":"Australia/Perth"},
+	"Taipei Standard Time": 
+		{"zone":"(UTC+08:00) Taipei",
+			"city":"Asia/Taipei"},
+	"Tokyo Standard Time": 
+		{"zone":"(UTC+09:00) Osaka, Sapporo, Tokyo",
+			"city":"Asia/Tokyo"},
+	"Korea Standard Time": 
+		{"zone":"(UTC+09:00) Seoul" ,
+			"city":"Asia/Seoul"},
+	"Cen. Australia Standard Time": 
+		{"zone":"(UTC+09:30) Adelaide",
+			"city":"Australia/Adelaide"},
+	"AUS Central Standard Time": 
+		{"zone":"(UTC+09:30) Darwin",
+			"city":"Australia/Darwin"},
+	"E. Australia Standard Time": 
+		{"zone":"(UTC+10:00) Brisbane",
+			"city":"Australia/Brisbane"},
+	"AUS Eastern Standard Time": 
+		{"zone":"(UTC+10:00) Canberra, Melbourne, Sydney",
+			"city":"Australia/Sydney"},
+	"Vladivostok Standard Time": 
+		{"zone":"(UTC+11:00) Vladivostok",
+			"city":"Asia/Vladivostok"},
+	"New Zealand Standard Time": 
+		{"zone":"(UTC+12:00) Auckland, Wellington",
+			"city":"Pacific/Auckland"},
+ 	"UTC+12":
+ 		{"zone": "(UTC+12:00) Coordinated Universal Time+12",
+ 			"city":"Etc/GMT+12"},
+
+
+	"Dateline Standard Time": 
+		{"zone":"(UTC-12:00) International Date Line West",
+			"city":"Pacific/Kwajalein"},
+	"UTC-11": 
+		{"zone": "(UTC-11:00) Coordinated Universal Time-11" ,
+			"city": "Pacific/Midway"},
+	"Mountain Standard Time (Mexico)": 
+		{"zone": "(UTC-07:00) Chihuahua, La Paz, Mazatlan ",
+			"city":"America/Chihuahua"},
+	"Central Standard Time": 
+		{"zone":"(UTC-06:00) Central Time (US & Canada) ",
+			"city":"America/Rankin_Inlet"},
+	"SA Pacific Standard Time": 
+		{"zone":"(UTC-05:00) Bogota, Lima, Quito", 
+			"city":"America/Bogota"},
+	"US Eastern Standard Time": 
+		{"zone":"(UTC-05:00) Indiana (East)",
+			"city":"America/Atikokan"},
+	"Venezuela Standard Time": 
+		{"zone":"(UTC-04:30) Caracas",
+			"city":"America/Caracas"},
+	"Paraguay Standard Time": 
+		{"zone":"(UTC-04:00) Asuncion",
+			"city":"America/Asuncion"},
+	"SA Western Standard Time": 
+		{"zone": "(UTC-04:00) Georgetown, La Paz, Manaus, San Juan",
+			"city": "America/Manaus"},
+	"Pacific SA Standard Time": 
+		{"zone":"(UTC-04:00) Santiago",
+			"city":"America/Santiago"},
+	"Newfoundland Standard Time": 
+		{"zone":"(UTC-03:30) Newfoundland", 
+			"city": "America/St_Johns"},
+ 	"SA Eastern Standard Time": 
+ 		{"zone":"(UTC-03:00) Cayenne, Fortaleza",
+ 			"city":"America/Cayenne"},
+ 	"Greenland Standard Time": 
+ 		"zone":"(UTC-03:00) Greenland",
+ 			"city":"America/Danmarkshavn"},
+ 	"Montevideo Standard Time": 
+ 		{"zone":"(UTC-03:00) Montevideo",
+ 			"city":"America/Montevideo"},
+	"UTC-02": 
+		{"zone":"(UTC-02:00) Coordinated Universal Time-02",
+			"city":"America/Noronha"},
+	"Mid-Atlantic Standard Time": 
+		{"zone":"(UTC-02:00) Mid-Atlantic",
+			"city":"Atlantic/South_Georgia"},
+	"Azores Standard Time": 
+		{"zone":"(UTC-01:00) Azores",
+			"city":"Atlantic/Azores"},
+	"Libya Standard Time": 
+		{"zone":"(UTC+01:00) Tripoli", 
+			"city":"Africa/Tripoli"},
+	"W. Central Africa Standard Time": 
+		{"zone":"(UTC+01:00) West Central Africa",
+			"city":"Africa/Lagos"},
+	"Namibia Standard Time": 
+		{"zone":"(UTC+01:00) Windhoek",
+			"city":"Africa/Windhoek"},
+	"E. Africa Standard Time": 
+		{"zone":"(UTC+03:00) Nairobi",
+			"city":"Africa/Nairobi"},
+	"Azerbaijan Standard Time": 
+		{"zone":"(UTC+04:00) Baku",
+			"city":"Asia/Baku"},
+	"Mauritius Standard Time": 
+		{"zone":"(UTC+04:00) Port Louis",
+			"city":"Indian/Mauritius"},
+	"Georgian Standard Time": 
+		{"zone":"(UTC+04:00) Tbilisi", 
+			"city":"Asia/Tbilisi"},
+	"Caucasus Standard Time": 
+		{"zone":"(UTC+04:00) Yerevan",
+			"city":"Asia/Yerevan"},
+	"Pakistan Standard Time": 
+		{"zone":"(UTC+05:00) Islamabad, Karachi",
+			"city":"Asia/Karachi"},
+	"Central Asia Standard Time": 
+		{"zone":"(UTC+06:00) Astana",
+			"city":"Asia/Almaty"},
+	"Ekaterinburg Standard Time": 
+		{"zone":"(UTC+06:00) Ekaterinburg",
+			"city":"Asia/Yekaterinburg"},
+	"Myanmar Standard Time": 
+		{"zone":"(UTC+06:30) Yangon (Rangoon)",
+			"city":"Asia/Rangoon"},
+	"N. Central Asia Standard Time": 
+		{"zone":"(UTC+07:00) Novosibirsk",
+			"city":"Asia/Novosibirsk"},
+	"North Asia Standard Time": 
+		{"zone":"(UTC+08:00) Krasnoyarsk" ,
+			"city":"Asia/Krasnoyarsk"},
+	"Ulaanbaatar Standard Time": 
+		{"zone":"(UTC+08:00) Ulaanbaatar", 
+			"city":"Asia/Ulaanbaatar"},
+	"North Asia East Standard Time": 
+		{"zone":"(UTC+09:00) Irkutsk",
+			"city":"Asia/Irkutsk"},
+	"West Pacific Standard Time": 
+		{"zone":"(UTC+10:00) Guam, Port Moresby",
+			"city":"Pacific/Guam"},
+	"Tasmania Standard Time": 
+		{"zone":"(UTC+10:00) Hobart",
+			"city":"Australia/Hobart"},
+ 	"Yakutsk Standard Time": 
+ 		{"zone":"(UTC+10:00) Yakutsk",
+ 			"city":"Asia/Yakutsk"},
+ 	"Central Pacific Standard Time": 
+ 		{"zone":"(UTC+11:00) Solomon Is., New Caledonia",
+ 			"city":"Pacific/Noumea"},
+ 	"Fiji Standard Time": 
+ 		{"zone":"(UTC+12:00) Fiji", 
+ 			"city":"Pacific/Fiji"},
+	"Magadan Standard Time": 
+		{"zone":"(UTC+12:00) Magadan",
+			"city":"Asia/Magadan"},
+	"Tonga Standard Time": 
+		{"zone":"(UTC+13:00) Nuku'alofa",
+			"city":"Pacific/Tongatapu"},
+	"Samoa Standard Time": 
+		{"zone":"(UTC+13:00) Samoa",
+			"city":"Pacific/Samoa"}
+}

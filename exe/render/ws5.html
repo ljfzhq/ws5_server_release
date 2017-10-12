@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+		<base href="" />
+        <link href="css/te.css" rel="stylesheet" type="text/css">
+        
+        <script>
+        	function init(){
+        		$.getJSON("ip.json", function(json){
+  					$("base").attr("href","http://"+json.hostname+":"+json.port+"/render/");
+				});	
+        	}
+        </script>
+	    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+	    <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
+        <script type="text/javascript" src="js/jquery.keyframes.js"></script>
+
+	    <script type="text/javascript" src="js/ws5Common.js" ></script>
+	    <script type="text/javascript" src="js/ws5Media.js" ></script>
+	    <script type="text/javascript" src="js/ws5IDManager.js" ></script>
+	    <script type="text/javascript" src="js/ws5Desktop.js" ></script>
+	    <script type="text/javascript" src="js/ws5TransitionEffect.js" ></script>
+	    <script type="text/javascript" src="js/ws5RenderCtrl.js" ></script>
+	    <script type="text/javascript" src="js/ws5eventZoneRenderCtrl.js" ></script>
+	    <script type="text/javascript" src="js/ws5Render.js" ></script>
+	    <script type="text/javascript" src="js/ws5PreloadManager.js" ></script>
+	    <script type="text/javascript" src="js/ticker/ws5TickerLoader.js" ></script>
+	    <script type="text/javascript" src="js/ticker/ws5TickerImage.js" ></script>
+	    <script type="text/javascript" src="js/ticker/ws5TickerPainter.js" ></script>
+	    <script type="text/javascript" src="js/ticker/ws5TickerCtrl.js" ></script>
+	    <script type="text/javascript" src="js/ws5util.js" ></script>
+
+	    <script type="text/javascript" src="js/ws5Define.js" ></script>
+
+    </head>
+    <body style="overflow:hidden; background:black" onresize="window.location.reload();" onload="init()">
+    </body>
+</html>

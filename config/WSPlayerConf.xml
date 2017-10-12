@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<wsPlayerConfig>
+
+	<general> 
+		<controller>
+			<disable>1</disable>
+			<port>2000</port>
+			<intervalMS>5000</intervalMS>	 
+		</controller>
+		<keepTaskBar>1</keepTaskBar>
+		<log>
+			<size>8000</size> <!--unit:KB-->
+			<level>1</level> <!--0: only output error messages; 1:error and warning message; 2: detail messages-->
+		</log>
+		<topmost>1</topmost> <!--indicate whether the player window is topmost or not-->
+
+	</general>
+
+	<playback>
+
+		<preCreateTimeMS>15000</preCreateTimeMS> <!--the player is created before the start time-->
+		<preStartTimeMS>1000</preStartTimeMS> <!--the player is started in advance a little time-->
+		<mediaExpiredKeepTimeMS>600000</mediaExpiredKeepTimeMS> <!--even the media is expired, still keep it for a period-->
+		<endDelayTimeMS>120</endDelayTimeMS> <!-- when the end time is reached, delay a little time-->
+		<multipleProcesses>1</multipleProcesses> <!-- create player in multiple processes or not-->
+
+		<setCPUAffinity></setCPUAffinity><!-- only effect when multipleProcesses is 1-->
+ 
+		<transitionEffect>
+			<durationMS>2000</durationMS>
+			<multiScreen>1</multiScreen>
+			<shutter>
+				<pxSize>150</pxSize>
+			</shutter>
+		</transitionEffect>
+ 
+		<playerModule>
+
+		<!--pattern tag supplies one option to specify a player module for one special media type or a single media file
+		  for example, if vlcPlayer need be used for wmv files:
+						<pattern file="*.wmv">vlcPlayer.dll</pattern>  
+				if vlcPlayer need be used one single file abc.avi:
+						<pattern file="*abc.avi">vlcPlayer.dll</pattern>
+		--> 	
+		<video notReuse="0">videoPlayer.dll</video>
+
+		<stream></stream>
+	
+		<image></image>
+	
+		<audio></audio>
+
+		<flash></flash>
+	
+		<html></html>
+
+		<ticker></ticker>
+
+	 
+		<playerKeepTimeS>600</playerKeepTimeS>
+
+	 
+		<freeMemThresholdMB>500</freeMemThresholdMB>
+
+		</playerModule>
+
+		<vlc>
+	 		<d3dMultiThread>1</d3dMultiThread> 
+			<d3dPresentFlag>0</d3dPresentFlag>
+			<netsync> <!--udp port 9875 is used-->
+				<isMaster></isMaster>
+				<masterHost></masterHost>				
+			</netsync>
+			<waitWindow>  
+				<text>Streaming</text>	
+				<fontSize>100</fontSize>
+				<fontColor>0xffff00</fontColor>
+ 
+			</waitWindow>
+
+
+			<!--will add special arguments when start vlc player for specified protocol 
+			    about attribute "protocol", it means which protocol should add the options.
+			    the value can be multiple protocols seperated by ";", for example: "dshow;dvb-t"
+			    	for "*" protocol, it means to add those arguments for all stream types
+			    about midChar attribute, the value can be "=", " " or empty
+				"=" for common attributes with name=value, e.g. :live-caching=300 (if no this attribute, will treate as "=")
+				" " for options that the name and value are split by space, e.g. "-netsync-master-ip 192.168.1.15"
+				empty value means the attibute without value, e.g. "-no-audio"		        
+			-->
+			<options protocol="*">  
+				<!--option name="_-file-logging" value="" midChar=""/> 
+
+				<option name="_-log-verbose" value="2" midChar="="/>
+				<option name="_-logfile" value="vlclog.txt" midChar="="/-->
+  
+			</options>
+ 			<options protocol="dshow;dvb-t;rtp">
+				<option name=":live-caching" value="300" midChar="="/>
+			</options>
+						    
+		</vlc>
+	        <flashOptions>   
+	                <!--if one flash accross more than (or equal to) this number screens, multiple screen mode will be used-->
+                       <multiScreen>2</multiScreen>	   
+		       <maxSurface>3840*2160</maxSurface>
+	  	       <quality>2</quality> <!--0=Low, 1=High, 2=AutoLow, 3=AutoHigh -->
+	  
+               </flashOptions>
+	
+
+		<pdfViewer> 
+			<scrollInterval>200</scrollInterval> <!--unit is ms-->
+			<scrollStepPoints>2</scrollStepPoints> <!--how many points will be moved for one scroll-->
+			<scrollDelay>5</scrollDelay> <!--start scroll after some seconds once the first page is shown-->							
+		</pdfViewer>
+
+		<wordViewer> 
+			<scrollInterval>100</scrollInterval> <!--unit is ms-->
+			<scrollStepPoints>3</scrollStepPoints> <!--how many points will be moved for one scroll-->
+			<scrollDelay>10</scrollDelay> <!--start scroll after some seconds once the first page is shown-->						
+		</wordViewer>
+
+
+
+
+	</playback>
+
+</wsPlayerConfig>
